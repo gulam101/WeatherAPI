@@ -8,5 +8,6 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.HTTP_Manager
 {
     class OpenWeatherMapCallManager
     {
+        
     }
 }
