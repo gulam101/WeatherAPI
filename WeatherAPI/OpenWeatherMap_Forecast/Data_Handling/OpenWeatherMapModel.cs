@@ -41,4 +41,9 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.Data_Handling
     {
         public int all { get; set; }
     }
+
+    public class Wind
+    {
+
+    }
 }
