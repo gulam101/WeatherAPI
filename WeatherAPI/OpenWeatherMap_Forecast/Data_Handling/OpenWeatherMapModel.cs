@@ -47,4 +47,10 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.Data_Handling
         public double speed { get; set; }
         public double deg { get; set; }
     }
+    
+    public class Rain
+    {
+        [JsonProperty(PropertyName = "3h")]
+        public double three { get; set; }
+    }
 }
