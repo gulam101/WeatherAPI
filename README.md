@@ -1,7 +1,7 @@
 # Weather API Project
 
 Table of Contents:
-General Info
+Description
 Prerquisites
 Setup
 Development Changes
