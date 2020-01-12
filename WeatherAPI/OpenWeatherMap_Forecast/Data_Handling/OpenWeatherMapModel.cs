@@ -52,4 +52,9 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.Data_Handling
         [JsonProperty(PropertyName = "3h")]
         public double three { get; set; }
     }
+
+    public class Sys
+    {
+        public string pod { get; set; }
+    }
 }
