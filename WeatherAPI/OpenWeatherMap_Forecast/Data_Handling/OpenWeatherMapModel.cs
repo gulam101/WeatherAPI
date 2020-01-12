@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace WeatherAPI.OpenWeatherMap_Forecast.Data_Handling
 {
-    class OpenWeatherMapModel
+    public class OpenWeatherMapList
     {
         public int dt { get; set; }
         public Main main { get; set; }
