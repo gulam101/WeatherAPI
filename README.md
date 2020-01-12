@@ -8,6 +8,7 @@ Table of Contents:
 - Running The Tests
 - Tools
 - Resources
+- Screenshots
 
 ### Description: 
 
@@ -25,3 +26,5 @@ You will need the following software installed to be able to use the application
 ### Tools:
 
 ### Resources:
+
+### Screenshots: 
