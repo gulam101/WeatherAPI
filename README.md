@@ -11,14 +11,14 @@ Table of Contents:
 
 ### Description:
 
-### Prerequisites
+### Prerequisites:
 
-### Setup
+### Setup:
 
-### Development Changes
+### Development Changes:
 
-### Running The Tests
+### Running The Tests:
 
-### Tools
+### Tools:
 
-### Resources
+### Resources:
