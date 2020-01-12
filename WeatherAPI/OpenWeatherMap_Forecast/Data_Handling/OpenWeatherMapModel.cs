@@ -16,4 +16,9 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.Data_Handling
         public System sys { get; set; }
         public string dt_txt { get; set; }
     }
+
+    public class Main
+    {
+
+    }
 }
