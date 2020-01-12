@@ -57,4 +57,14 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.Data_Handling
     {
         public string pod { get; set; }
     }
+    public class OpenWeatherMapCity
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public OpenWeatherMapCityCoord coord { get; set; }
+        public string country { get; set; }
+        public int population { get; set;}
+        public int timezone { get; set; }
+
+    }
 }
