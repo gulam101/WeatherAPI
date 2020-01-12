@@ -36,4 +36,9 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.Data_Handling
         public string descirption { get; set; }
         public string icon { get; set; }
     }
+
+    public class clouds
+    {
+        
+    }
 }
