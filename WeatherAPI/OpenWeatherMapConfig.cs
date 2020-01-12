@@ -8,5 +8,6 @@ namespace WeatherAPI
 {
     class OpenWeatherMapConfig
     {
+        public static readonly String baseURL = ConfigurationManager.AppSettings["base_url"];
     }
 }
