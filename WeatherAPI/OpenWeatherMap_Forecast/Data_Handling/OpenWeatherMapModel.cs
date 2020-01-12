@@ -19,6 +19,21 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.Data_Handling
 
     public class Main
     {
+        public double tempt { get; set; }
+        public double temp_min { get; set; }
+        public double temp_max { get; set; }
+        public double pressure { get; set; }
+        public double sea_level { get; set; }
+        public double grnd_level { get; set; }
+        public int humidity { get; set; }
+        public double temp_kf { get; set; }
+    }
 
+    public class Weather
+    {
+        public int id { get; set; }
+        public string main { get; set; }
+        public string descirption { get; set; }
+        public string icon { get; set; }
     }
 }
