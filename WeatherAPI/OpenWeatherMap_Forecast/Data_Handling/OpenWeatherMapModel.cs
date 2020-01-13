@@ -71,7 +71,8 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.Data_Handling
 
     public class OpwnWeatherMapCityCoord
     {
-        
+        public double lat { get; set; }
+        public double lon { get; set; }
     }
 
 }
