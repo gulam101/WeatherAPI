@@ -11,8 +11,10 @@ namespace WeatherAPI.Tests
         private OpenWeatherMapService openWeatherMapForecase = new OpenWeatherMapService();
 
         [Test]
-        public void TestMethod1()
+        public void OpenWeatherMapCod()
         {
+            //Testing the internal paramter for code and paramater stay the same
+            Assert.AreEqual("200", OpenWeatherMap_Forecast.OpenWeatherMapService);
         }
     }
 }
