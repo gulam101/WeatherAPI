@@ -80,7 +80,7 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.Data_Handling
         public string cod { get; set; }
         public double message { get; set; }
         public int cnt { get; set; }
-        public OpwnWeatherMapCity city { get; set; }
-        public List<OpwnWeatherMapList> list { get; set; }
+        public OpenWeatherMapCity city { get; set; }
+        public List<OpenWeatherMapList> list { get; set; }
     }
 }
