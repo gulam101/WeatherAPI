@@ -69,7 +69,7 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.Data_Handling
         public int sunset { get; set; }
     }
 
-    public class OpwnWeatherMapCityCoord
+    public class OpenWeatherMapCityCoord
     {
         public double lat { get; set; }
         public double lon { get; set; }
