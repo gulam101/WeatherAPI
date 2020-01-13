@@ -12,7 +12,7 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.Data_Handling
         public Clouds cloud { get; set; }
         public Wind wind { get; set; }
         public Rain rain { get; set; }
-        public System sys { get; set; }
+        public Sys sys { get; set; }
         public string dt_txt { get; set; }
     }
 
