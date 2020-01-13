@@ -14,7 +14,7 @@ namespace WeatherAPI.Tests
         public void OpenWeatherMapCod()
         {
             //Testing the internal paramter for code and paramater stay the same
-            Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual("200", OpenWeatherMap_Forecast.OpenWeatherMapService);
+            Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual("200", openWeatherMapForecase.openWeatherMapDTO.openWeatherMap.cod);
         }
     }
 }
