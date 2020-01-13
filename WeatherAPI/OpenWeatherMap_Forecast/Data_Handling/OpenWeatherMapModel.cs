@@ -75,4 +75,12 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.Data_Handling
         public double lon { get; set; }
     }
 
+    public class OpenWeatherMapRoot
+    {
+        public string cod { get; set; }
+        public double message { get; set; }
+        public int cnt { get; set; }
+        public OpwnEatherMapCity city { get; set; }
+        public List<OpwnEatherMapList> list { get; set; }
+    }
 }
