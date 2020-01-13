@@ -1,9 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace WeatherAPI.Tests
 {
-    [TestClass]
+    [TestFixture]
     public class UnitTest1
     {
         [TestMethod]
