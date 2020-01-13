@@ -2,7 +2,7 @@
 
 ### API testing on OpenWeatherAPI
 
-Table of Contents:
+# Table of Contents:
 - Description
 - Prerequisites
 - Setup
