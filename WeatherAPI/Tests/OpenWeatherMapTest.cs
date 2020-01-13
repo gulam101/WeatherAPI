@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace WeatherAPI
+namespace WeatherAPI.Tests
 {
     [TestClass]
     public class UnitTest1
