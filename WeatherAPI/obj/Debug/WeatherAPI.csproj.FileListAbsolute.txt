@@ -20,3 +20,6 @@ D:\Projects\C# Projects\WeatherAPI\WeatherAPI\obj\Debug\WeatherAPI.csproj.CoreCo
 D:\Projects\C# Projects\WeatherAPI\WeatherAPI\obj\Debug\WeatherAPI.csproj.CopyComplete
 D:\Projects\C# Projects\WeatherAPI\WeatherAPI\obj\Debug\WeatherAPI.dll
 D:\Projects\C# Projects\WeatherAPI\WeatherAPI\obj\Debug\WeatherAPI.pdb
+D:\Projects\C# Projects\WeatherAPI\WeatherAPI\bin\Debug\nunit.framework.dll
+D:\Projects\C# Projects\WeatherAPI\WeatherAPI\bin\Debug\nunit.framework.pdb
+D:\Projects\C# Projects\WeatherAPI\WeatherAPI\bin\Debug\nunit.framework.xml
