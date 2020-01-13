@@ -68,4 +68,10 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.Data_Handling
         public int sunrise { get; set; }
         public int sunset { get; set; }
     }
+
+    public class OpwnWeatherMapCityCoord
+    {
+        
+    }
+
 }
