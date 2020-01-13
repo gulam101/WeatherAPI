@@ -17,7 +17,7 @@ This project is meant to test the OpenWeatherAPI. I have to test data that match
 ### Prerequisites:
 You will need the following software installed to be able to use the application:
 - Postman
-- Visual Studio
+- Visual Studio 2019
 
 ### Setup:
 
