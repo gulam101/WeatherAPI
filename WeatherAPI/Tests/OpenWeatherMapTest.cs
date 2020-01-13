@@ -5,9 +5,9 @@ using NUnit.Framework;
 namespace WeatherAPI.Tests
 {
     [TestFixture]
-    public class UnitTest1
+    public class OpenWeatherMapTest
     {
-        [TestMethod]
+        [Test]
         public void TestMethod1()
         {
         }
