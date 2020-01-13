@@ -2,7 +2,7 @@
 
 Table of Contents:
 - Description
-- Prerquisites
+- Prerequisites
 - Setup
 - Development Changes
 - Running The Tests
