@@ -16,7 +16,7 @@ namespace WeatherAPI.OpenWeatherMap_Forecast
         //We need Call Manager
         public OpenWeatherMapCallManager openWeatherMapCall = new OpenWeatherMapCallManager();
         //Json Object
-        public JObject OpwnWeatherMapJson;
+        public JObject OpenWeatherMapJson;
 
         public OpenWeatherMapService()
         {
