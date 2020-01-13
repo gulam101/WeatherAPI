@@ -18,7 +18,10 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.HTTP_Manager
 
         public string GetOpenWeatherMap()
         {
-
+            var reqeust = new RestRequest(OpenWeatherMapConfig.ApiCity
+                + "&" + OpenWeatherMapConfig.ApiKey);
+            var response = client.Execute(reqeust, Method.GET);
+            return response.Content;
         }
     }
 }
