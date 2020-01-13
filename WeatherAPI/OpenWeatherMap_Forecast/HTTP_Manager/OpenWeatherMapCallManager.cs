@@ -10,5 +10,15 @@ namespace WeatherAPI.OpenWeatherMap_Forecast.HTTP_Manager
     class OpenWeatherMapCallManager
     {
         readonly IRestClient client;
+
+        public OpenWeatherMapCallManager()
+        {
+            client = new RestClient(OpenWeatherMapConfig.baseURL);
+        }
+
+        public string GetOpenWeatherMap()
+        {
+
+        }
     }
 }
