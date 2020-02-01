@@ -43,6 +43,7 @@ I can also check data by using the Unit Tests and seeing what has failed/passed 
 ### Prerequisites:
 You will need the following software installed to be able to use the application:
 - Postman
+- Gitbash
 - Visual Studio 2019
 
 ### Setup:
