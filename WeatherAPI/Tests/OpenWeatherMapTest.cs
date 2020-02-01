@@ -25,6 +25,12 @@ namespace WeatherAPI.Tests
             NUnit.Framework.Assert.Greater(openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.message, 0.0);
         }
 
+        [Test]
+        public void OpenWeatherMapCnt()
+        {
+            Assert.AreEqual(40, openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.cnt);
+        }
+
 
     }
 }
