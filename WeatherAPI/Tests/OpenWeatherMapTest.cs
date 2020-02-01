@@ -72,7 +72,19 @@ namespace WeatherAPI.Tests
             NUnit.Framework.Assert.GreaterOrEqual(openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.grnd_level, 1000);
         }
         
+        [Test]
+        public void OpenWeatherMapListMainHumditiy()
+        {
+            NUnit.Framework.Assert.AreEqual(openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.list[0].main.humidity.GetType(), typeof(int));
+        }
 
+        [Test]
+        public void OpenWeatherMapListTemp_Kf()
+        {
+            NUnit.Framework.Assert.That(openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.list[0].main.temp_kf, Is.LessThan(0.0));
+        }
 
     }
 }
