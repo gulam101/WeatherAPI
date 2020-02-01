@@ -69,8 +69,6 @@ Date: 01/02/20
 
 All tests were finished and and fixes towards some bugs. Their won't be anymore updates in the development changes log.
 
-### Test Cases:
-
 ### Tools:
 
 ### Resources:
