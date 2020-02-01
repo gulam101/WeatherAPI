@@ -21,17 +21,20 @@
 [What I learnt](#What_I_Learnt)  
 <a name="What_I_Learnt"/>
 
-[Constraints](#Constraints)  
-<a name="Constraints"/>
+[Setup](#Setup)  
+<a name="Setup"/>
 
-[Improvements](#Improvements)  
-<a name="Improvements"/>
-
-[Ad-Hoc Testing](#Ad-Hoc_Testing)  
-<a name="Ad-Hoc_Testing"/>
+[Tests](#Tests)  
+<a name="Tests"/>
 
 [Development Changes](#Development_Changes)  
 <a name="Development_Changes"/>
+
+[Tools](#Tools)  
+<a name="Tools"/>
+
+[Resources](#Resources)  
+<a name="Resources"/>
 
 [Screenshots](#Screenshots)
 <a name="Screenshots"/>
