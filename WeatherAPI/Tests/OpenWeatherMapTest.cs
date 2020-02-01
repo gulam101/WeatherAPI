@@ -50,7 +50,13 @@ namespace WeatherAPI.Tests
             NUnit.Framework.Assert.AreEqual(temp, tempmin);
         }
 
-
+        [Test]
+        public void OpenWeatherMapListTemp_Min()
+        {
+            double kelvin = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.temp_max;
+            double kelvin2 = 283.13099999999997;
+            NUnit.Framework.Assert.That(Kelvin2, Is.EqualTo(kelvin));
+        }
         
 
 
