@@ -173,5 +173,12 @@ namespace WeatherAPI.Tests
             openWeatherMapDTO.openWeatherMap.city.id);
         }
 
+        [Test]
+        public void OpenWeatherMapCityName()
+        {
+            //Testing if the city name mathces with api city name
+            NUnit.Framework.Assert.AreEqual("London", openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.city.name);
+        }
+
     }
 }
