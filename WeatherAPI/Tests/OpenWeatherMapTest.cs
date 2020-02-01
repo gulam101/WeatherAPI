@@ -29,7 +29,8 @@ namespace WeatherAPI.Tests
         [Test]
         public void OpenWeatherMapCnt()
         {
-            NUnit.Framework.Assert.AreEqual(40, openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.cnt);
+            NUnit.Framework.Assert.AreEqual(40, openWeatherMapForecast.
+            openWeatherMapDTO.openWeatherMap.cnt);
         }
 
         //Test for weather list
@@ -37,7 +38,8 @@ namespace WeatherAPI.Tests
         public void OpenWeatherMapListDT()
         {
             //checking the dt length
-            int dt = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].dt.ToString().Length;
+            int dt = openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.list[0].dt.ToString().Length;
             NUnit.Framework.Assert.AreEqual(openWeatherMapForecast.
             openWeatherMapDTO.openWeatherMap.list[0].dt.ToString().Length, dt);
         }
@@ -46,15 +48,18 @@ namespace WeatherAPI.Tests
         public void OpenWeatherMapListTempCompare()
         {
             //Compare Temp with Temp min
-            double temp = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.temp;
-            double tempmin = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.temp_min;
+            double temp = openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.list[0].main.temp;
+            double tempmin = openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.list[0].main.temp_min;
             NUnit.Framework.Assert.AreEqual(temp, tempmin);
         }
 
         [Test]
         public void OpenWeatherMapListTemp_Min()
         {
-            double kelvin = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.temp_max;
+            double kelvin = openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.list[0].main.temp_max;
             double kelvin2 = 283.13099999999997;
             NUnit.Framework.Assert.That(kelvin2, Is.EqualTo(kelvin));
         }
