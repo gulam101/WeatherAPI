@@ -62,15 +62,18 @@ namespace WeatherAPI.Tests
         public void OpenWeatherMapListPressureCompareWithSeaLevel()
         {
             //Compares pressure with Sea Level
-            double pressure = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.pressure;
-            double sealevel = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.sea_level;
+            double pressure = openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.list[0].main.pressure;
+            double sealevel = openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.list[0].main.sea_level;
             NUnit.Framework.Assert.AreEqual(pressure, sealevel);
         }
 
         [Test]
         public void OpenWeatherMapListGrnd_Level()
         {
-            NUnit.Framework.Assert.GreaterOrEqual(openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.grnd_level, 1000);
+            NUnit.Framework.Assert.GreaterOrEqual(openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.list[0].main.grnd_level, 1000);
         }
         
         [Test]
@@ -101,7 +104,8 @@ namespace WeatherAPI.Tests
             //lists for clear
             rain.AddRange(new[] { 800 });
 
-            NUnit.Framework.Assert.Contains(openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].weather[0].id, rain);
+            NUnit.Framework.Assert.Contains(openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.list[0].weather[0].id, rain);
         }
 
         [Test]
@@ -109,7 +113,8 @@ namespace WeatherAPI.Tests
         {
             var rainname = new List<string>();
             rainname.AddRange(new[] { "Clouds", "Clear", "Rain", "Atmosphere", "Snow", "Drizzle", "ThunderStorm" });
-            NUnit.Framework.Assert.Contains(openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].weather[0].main, rainname);
+            NUnit.Framework.Assert.Contains(openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.list[0].weather[0].main, rainname);
         }
 
         [Test]
