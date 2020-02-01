@@ -205,5 +205,13 @@ namespace WeatherAPI.Tests
             openWeatherMap.city.coord.lat.GetType(), typeof(double));
         }
 
+        [Test]
+        public void OpenWeatherMapCountryName()
+        {
+            //Testing if the city name mathces with api country name
+            NUnit.Framework.Assert.AreEqual("GB", openWeatherMapForecast.
+            openWeatherMapDTO.openWeatherMap.city.country);
+        }
+
     }
 }
