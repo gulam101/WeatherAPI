@@ -19,9 +19,6 @@
 [Development Changes](#Development_Changes)  
 <a name="Development_Changes"/>
 
-[Tools](#Tools)  
-<a name="Tools"/>
-
 [Resources](#Resources)  
 <a name="Resources"/>
 
@@ -66,8 +63,7 @@ Date: 01/02/20
 
 All tests were finished and and fixes towards some bugs. Their won't be anymore updates in the development changes log.
 
-### Tools:
-
 ### Resources:
+- https://docs.microsoft.com/en-us/dotnet/csharp/
 
 ### Screenshots: 
