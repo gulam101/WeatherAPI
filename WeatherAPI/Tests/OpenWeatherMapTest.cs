@@ -55,7 +55,21 @@ namespace WeatherAPI.Tests
         {
             double kelvin = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.temp_max;
             double kelvin2 = 283.13099999999997;
-            NUnit.Framework.Assert.That(Kelvin2, Is.EqualTo(kelvin));
+            NUnit.Framework.Assert.That(kelvin2, Is.EqualTo(kelvin));
+        }
+
+        public void OpenWeatherMapListPressureCompareWithSeaLevel()
+        {
+            //Compares pressure with Sea Level
+            double pressure = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.pressure;
+            double sealevel = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.sea_level;
+            NUnit.Framework.Assert.AreEqual(pressure, sealevel);
+        }
+
+        [Test]
+        public void OpenWeatherMapListGrnd_Level()
+        {
+            NUnit.Framework.Assert.GreaterOrEqual(openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.grnd_level, 1000);
         }
         
 
