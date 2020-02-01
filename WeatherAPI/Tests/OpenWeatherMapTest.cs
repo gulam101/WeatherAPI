@@ -98,7 +98,14 @@ namespace WeatherAPI.Tests
             rain.AddRange(new[] { 801, 802, 803, 804 });
             //lists for thunder id
             rain.AddRange(new[] { 200, 201, 202, 211, 212, 221, 230, 231, 232 });
+            //lists for clear
+            rain.AddRange(new[] { 800 });
+
+            NUnit.Framework.Assert.Contains(openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].weather[0].id, rain);
         }
+
+        [Test]
+
 
     }
 }
