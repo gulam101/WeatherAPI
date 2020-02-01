@@ -189,5 +189,21 @@ namespace WeatherAPI.Tests
             NUnit.Framework.Assert.That(offset, Is.EqualTo(timezone));
         }
 
+        [Test]
+        public void OpenWeatherMapCityCoordLat()
+        {
+            //Test if the latitude type is double
+            NUnit.Framework.Assert.AreEqual(openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.city.coord.lat.GetType(), typeof(double));
+        }
+
+        [Test]
+        public void OpenWeatherMapCityCoordLon()
+        {
+            //Test of the longitude type is double
+            NUnit.Framework.Assert.AreEqual(openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.city.coord.lat.GetType(), typeof(double));
+        }
+
     }
 }
