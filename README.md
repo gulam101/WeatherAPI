@@ -16,8 +16,8 @@
 [Setup](#Setup)  
 <a name="Setup"/>
 
-[Tests](#Tests)  
-<a name="Tests"/>
+[Test Cases](#Test_Cases)  
+<a name="Tests_Cases"/>
 
 [Development Changes](#Development_Changes)  
 <a name="Development_Changes"/>
@@ -69,7 +69,7 @@ Date: 01/02/20
 
 All tests were finished and and fixes towards some bugs. Their won't be anymore updates in the development changes log.
 
-### Running The Tests:
+### Test Cases:
 
 ### Tools:
 
