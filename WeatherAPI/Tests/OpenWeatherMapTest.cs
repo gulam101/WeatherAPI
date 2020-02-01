@@ -112,5 +112,11 @@ namespace WeatherAPI.Tests
             NUnit.Framework.Assert.Contains(openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].weather[0].main, rainname);
         }
 
+        [Test]
+        public void OpenWeatherMapListCloud()
+        {
+            NUnit.Framework.Assert.AreEqual(openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].cloud.all.GetType(), typeof(int));
+        }
+
     }
 }
