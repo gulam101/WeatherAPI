@@ -82,6 +82,9 @@ Summary: All tests were finished and and fixes towards some bugs. Their won't be
 - https://visualstudio.microsoft.com/
 
 ### Screenshots:
+![IMG002](https://user-images.githubusercontent.com/45819118/73599737-a9f64780-453e-11ea-9455-c37c43f7eb57.PNG)
+![IMG001](https://user-images.githubusercontent.com/45819118/73599738-a9f64780-453e-11ea-9a9a-9f88b14cfe0f.PNG)
+
 
 ### Credits:
 Gulam Qasim
