@@ -86,5 +86,14 @@ namespace WeatherAPI.Tests
             openWeatherMap.list[0].main.temp_kf, Is.LessThan(0.0));
         }
 
+        [Test] 
+        public void OpenWeatherMapListWeatherID()
+        {
+            //list for ID for weather
+            var rain = new List<int>();
+            //list for rain id
+
+        }
+
     }
 }
