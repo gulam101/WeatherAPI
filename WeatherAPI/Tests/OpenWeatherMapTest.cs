@@ -77,8 +77,8 @@ namespace WeatherAPI.Tests
         [Test]
         public void OpenWeatherMapListGrnd_Level()
         {
-            NUnit.Framework.Assert.GreaterOrEqual(openWeatherMapForecast.openWeatherMapDTO.
-            openWeatherMap.list[0].main.grnd_level, 1000);
+            NUnit.Framework.Assert.GreaterOrEqual(openWeatherMapForecast.
+            openWeatherMapDTO.openWeatherMap.list[0].main.grnd_level, 1000);
         }
         
         [Test]
