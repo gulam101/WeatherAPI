@@ -40,6 +40,14 @@ You will need the following software installed to be able to use the application
 - Gitbash
 - Visual Studio 2019
 
+### What I learnt
+- Better understanding of JSON
+- Better understanding of XML
+- Unit Testing
+- GET and POST
+- Debugging test casses
+- Better understanding of deserialize
+
 ### Setup:
 
 This is a step by step example that tells you how to get the development enviroment running:
