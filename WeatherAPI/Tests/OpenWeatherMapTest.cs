@@ -177,7 +177,8 @@ namespace WeatherAPI.Tests
         public void OpenWeatherMapCityName()
         {
             //Testing if the city name mathces with api city name
-            NUnit.Framework.Assert.AreEqual("London", openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.city.name);
+            NUnit.Framework.Assert.AreEqual("London", openWeatherMapForecast.
+            openWeatherMapDTO.openWeatherMap.city.name);
         }
 
     }
