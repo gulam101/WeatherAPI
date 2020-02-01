@@ -181,5 +181,13 @@ namespace WeatherAPI.Tests
             openWeatherMapDTO.openWeatherMap.city.name);
         }
 
+        [Test]
+        public void OpenWeatherMapCityTimezone()
+        {
+            var offset = TimeZoneInfo.Local.GetUtcOffset(DateTime.UtcNow).TotalSeconds;
+            int timezone = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.city.timezone;
+            NUnit.Framework.Assert.That(offset, Is.EqualTo(timezone));
+        }
+
     }
 }
