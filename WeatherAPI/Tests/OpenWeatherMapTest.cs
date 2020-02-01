@@ -213,5 +213,12 @@ namespace WeatherAPI.Tests
             openWeatherMapDTO.openWeatherMap.city.country);
         }
 
+        [Test]
+        public void OpenWeatherMapCityPopulation()
+        {
+            //Test if population is not empty
+            NUnit.Framework.Assert.IsNotNull(openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.city.population);
+        }
+
     }
 }
