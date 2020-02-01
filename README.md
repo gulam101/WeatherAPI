@@ -70,7 +70,7 @@ This is a step by step example that tells you how to get the development envirom
 - step 11: Right click on Package then select Manage Nuget Packages then click on browse and install Nunit, Nunit3TestAdapter, Newtonsoft.Json and RestSharp
 - Step 12: Use API with API key (check Step 0) on Postman to get the data as JSON
 
-### Test Cases
+### Test Cases:
 
 ### Development Changes:
 - Date: 01/02/20
