@@ -12,6 +12,33 @@
 - Resources
 - Screenshots
 
+[Description](#Description)  
+<a name="Description"/>
+
+[Planned Features](#Planned_Features)  
+<a name="Planned_Features"/>
+
+[What I learnt](#What_I_Learnt)  
+<a name="What_I_Learnt"/>
+
+[Constraints](#Constraints)  
+<a name="Constraints"/>
+
+[Improvements](#Improvements)  
+<a name="Improvements"/>
+
+[Ad-Hoc Testing](#Ad-Hoc_Testing)  
+<a name="Ad-Hoc_Testing"/>
+
+[Development Changes](#Development_Changes)  
+<a name="Development_Changes"/>
+
+[Screenshots](#Screenshots)
+<a name="Screenshots"/>
+
+[Credits](#Credits)  
+<a name="Credits"/>
+
 ### Description: 
 
 This project is meant to test the OpenWeatherAPI. I have to test data that matches with the data gathered from the API using Postman as JSON. Postman allows me to check the data that is sent and delivered using this application and I can check the data using RAW, JSON and other types.
