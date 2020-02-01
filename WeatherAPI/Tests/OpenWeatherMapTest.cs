@@ -136,5 +136,12 @@ namespace WeatherAPI.Tests
             openWeatherMap.list[0].wind.speed.GetType(), typeof(double));
         }
 
+        [Test]
+        public void OpenWeatherMapListWindDeg()
+        {
+            NUnit.Framework.Assert.AreEqual(openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.list[0].wind.deg.GetType(), typeof(double));
+        }
+
     }
 }
