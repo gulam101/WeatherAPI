@@ -73,5 +73,7 @@ All tests were finished and and fixes towards some bugs. Their won't be anymore 
 
 ### Resources:
 - https://docs.microsoft.com/en-us/dotnet/csharp/
+- https://www.getpostman.com/
+- https://visualstudio.microsoft.com/
 
 ### Screenshots: 
