@@ -16,7 +16,7 @@
 <a name="Description"/>
 
 [Prerequisites](#Prerequisites)  
-<a name="Prerequisite"/>
+<a name="Prerequisites"/>
 
 [What I learnt](#What_I_Learnt)  
 <a name="What_I_Learnt"/>
