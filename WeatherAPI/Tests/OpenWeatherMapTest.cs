@@ -115,7 +115,15 @@ namespace WeatherAPI.Tests
         [Test]
         public void OpenWeatherMapListCloud()
         {
-            NUnit.Framework.Assert.AreEqual(openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].cloud.all.GetType(), typeof(int));
+            NUnit.Framework.Assert.AreEqual(openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.list[0].cloud.all.GetType(), typeof(int));
+        }
+
+        [Test]
+        public void OpenWeatherMapListWindSpeed()
+        {
+            NUnit.Framework.Assert.AreEqual(openWeatherMapForecast.openWeatherMapDTO.
+            openWeatherMap.list[0].wind.speed.GetType(), typeof(double));
         }
 
     }
