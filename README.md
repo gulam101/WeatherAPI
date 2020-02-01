@@ -39,6 +39,8 @@ You will need the following software installed to be able to use the application
 - Gitbash
 - Visual Studio 2017 or higher
 
+Please note that visual studio requires a lot of space on the hardrive and requires a good CPU for better performance
+
 ### What I learnt
 - Better understanding of JSON
 - Better understanding of XML
