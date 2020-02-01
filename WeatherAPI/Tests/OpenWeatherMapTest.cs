@@ -157,5 +157,12 @@ namespace WeatherAPI.Tests
             openWeatherMap.list[0].sys.pod.Length);
         }
 
+        [Test]
+        public void OpenWeatherMapListDT_Text()
+        {
+            NUnit.Framework.Assert.AreEqual(19, openWeatherMapForecast.
+            openWeatherMapDTO.openWeatherMap.list[0].dt_txt.Length);
+        }
+
     }
 }
