@@ -164,5 +164,14 @@ namespace WeatherAPI.Tests
             openWeatherMapDTO.openWeatherMap.list[0].dt_txt.Length);
         }
 
+        //Test for City
+        [Test]
+        public void OpenWeatherMapCityID()
+        {
+            //Testing if the city ID matches with api city ID
+            NUnit.Framework.Assert.AreEqual(2643743, openWeatherMapForecast.
+            openWeatherMapDTO.openWeatherMap.city.id);
+        }
+
     }
 }
