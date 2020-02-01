@@ -65,6 +65,9 @@ This is a step by step example that tells you how to get the development envirom
 - Step 12: Use API with API key (check Step 0) on Postman to get the data as JSON
 
 ### Development Changes:
+Date: 01/02/20
+
+All tests were finished and and fixes towards some bugs. Their won't be anymore updates in the development changes log.
 
 ### Running The Tests:
 
