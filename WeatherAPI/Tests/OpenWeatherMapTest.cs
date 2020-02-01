@@ -45,7 +45,7 @@ namespace WeatherAPI.Tests
         public void OpenWeatherMapListTempCompare()
         {
             //Compare Temp with Temp min
-            double tempt = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.temp;
+            double temp = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.temp;
             double tempmin = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].main.temp_min;
             NUnit.Framework.Assert.AreEqual(temp, tempmin);
         }
