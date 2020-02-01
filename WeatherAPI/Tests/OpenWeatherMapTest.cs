@@ -220,5 +220,13 @@ namespace WeatherAPI.Tests
             NUnit.Framework.Assert.IsNotNull(openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.city.population);
         }
 
+        [Test]
+        public void OpenWeatherMapCitySunriseORSunset()
+        {
+            //Test if the sunrise/sunset type is int
+            int sun = openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.city.sunrise.ToString().Length;
+            NUnit.Framework.Assert.AreEqual(openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.city.sunrise.ToString().Length, sun);
+        }
+
     }
 }
