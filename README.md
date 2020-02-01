@@ -3,14 +3,6 @@
 ### API testing on OpenWeatherAPI
 
 # Table of Contents:
-- Description
-- Prerequisites
-- Setup
-- Development Changes
-- Running The Tests
-- Tools
-- Resources
-- Screenshots
 
 [Description](#Description)  
 <a name="Description"/>
