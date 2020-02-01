@@ -105,7 +105,12 @@ namespace WeatherAPI.Tests
         }
 
         [Test]
-
+        public void OpenWeatherMapListWeatherName()
+        {
+            var rainname = new List<string>();
+            rainname.AddRange(new[] { "Clouds", "Clear", "Rain", "Atmosphere", "Snow", "Drizzle", "ThunderStorm" });
+            NUnit.Framework.Assert.Contains(openWeatherMapForecast.openWeatherMapDTO.openWeatherMap.list[0].weather[0].main, rainname);
+        }
 
     }
 }
