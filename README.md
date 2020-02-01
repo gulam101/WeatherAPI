@@ -37,7 +37,7 @@ I mainly created this project to teach myself how to test API's and gain a bette
 You will need the following software installed to be able to use the application:
 - Postman
 - Gitbash
-- Visual Studio 2019
+- Visual Studio 2017 or higher
 
 ### What I learnt
 - Better understanding of JSON
