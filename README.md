@@ -1,6 +1,6 @@
 # Weather API Project
 
-### API testing on OpenWeatherAPI
+### API testing on OpenWeatherAPI - Console Application, Unit Test & RESTFul API
 
 # Table of Contents:
 
