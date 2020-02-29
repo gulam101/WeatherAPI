@@ -33,7 +33,7 @@
 
 ### Description: 
 
-I mainly created this project to teach myself how to test API's and gain a better understanding of unit testing. This project is meant to test the OpenWeatherAPI. I have to test data that matches with the data gathered from the API using Postman as JSON. Postman allows me to check the data that is sent and delivered using this application and I can check the data using RAW, JSON and other types.
+I mainly created this project to teach myself how to test API's and gain a better understanding of unit testing. This project is meant to test the OpenWeatherAPI. I have to test data that matches with the data gathered from the API using Postman as JSON. Postman allows me to check the data that is sent and delivered using this application and I can check the data using RAW, JSON, and other types.
 
 
 ### Prerequisites:
